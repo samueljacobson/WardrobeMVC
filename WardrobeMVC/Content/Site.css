@@ -22,3 +22,9 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+/*Image formatting*/
+img.item-image {
+    width:100px;
+}

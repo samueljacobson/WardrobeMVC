@@ -24,10 +24,10 @@
             @Html.DisplayNameFor(model => model.Color)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Occassion.OccassionName)
+            Occassion
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Season.SeasonName)
+            Season
         </th>
         <th></th>
     </tr>
@@ -38,7 +38,7 @@
             @Html.DisplayFor(modelItem => item.Name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Photo)
+            <img class="item-image" src="@Html.DisplayFor(modelItem => item.Photo)" />
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Type)

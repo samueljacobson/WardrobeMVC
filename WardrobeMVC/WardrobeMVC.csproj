@@ -218,10 +218,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\access1.jpg" />
+    <Content Include="Content\access2.jpg" />
+    <Content Include="Content\access3.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bottom1.jpg" />
+    <Content Include="Content\bottom2.jpg" />
+    <Content Include="Content\bottom3.jpg" />
+    <Content Include="Content\shoe1.jpg" />
+    <Content Include="Content\shoe2.jpg" />
+    <Content Include="Content\shoe3.jpg" />
+    <Content Include="Content\top1.jpg" />
+    <Content Include="Content\top2.jpg" />
+    <Content Include="Content\top3.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
