@@ -165,7 +165,14 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\Accessories2Controller.cs" />
+    <Compile Include="Controllers\BottomsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OccassionsController.cs" />
+    <Compile Include="Controllers\OutfitsController.cs" />
+    <Compile Include="Controllers\SeasonsController.cs" />
+    <Compile Include="Controllers\ShoesController.cs" />
+    <Compile Include="Controllers\TopsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -279,6 +286,41 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Accessories2\Create.cshtml" />
+    <Content Include="Views\Accessories2\Delete.cshtml" />
+    <Content Include="Views\Accessories2\Details.cshtml" />
+    <Content Include="Views\Accessories2\Edit.cshtml" />
+    <Content Include="Views\Accessories2\Index.cshtml" />
+    <Content Include="Views\Tops\Create.cshtml" />
+    <Content Include="Views\Tops\Delete.cshtml" />
+    <Content Include="Views\Tops\Details.cshtml" />
+    <Content Include="Views\Tops\Edit.cshtml" />
+    <Content Include="Views\Tops\Index.cshtml" />
+    <Content Include="Views\Bottoms\Create.cshtml" />
+    <Content Include="Views\Bottoms\Delete.cshtml" />
+    <Content Include="Views\Bottoms\Details.cshtml" />
+    <Content Include="Views\Bottoms\Edit.cshtml" />
+    <Content Include="Views\Bottoms\Index.cshtml" />
+    <Content Include="Views\Shoes\Create.cshtml" />
+    <Content Include="Views\Shoes\Delete.cshtml" />
+    <Content Include="Views\Shoes\Details.cshtml" />
+    <Content Include="Views\Shoes\Edit.cshtml" />
+    <Content Include="Views\Shoes\Index.cshtml" />
+    <Content Include="Views\Outfits\Create.cshtml" />
+    <Content Include="Views\Outfits\Delete.cshtml" />
+    <Content Include="Views\Outfits\Details.cshtml" />
+    <Content Include="Views\Outfits\Edit.cshtml" />
+    <Content Include="Views\Outfits\Index.cshtml" />
+    <Content Include="Views\Occassions\Create.cshtml" />
+    <Content Include="Views\Occassions\Delete.cshtml" />
+    <Content Include="Views\Occassions\Details.cshtml" />
+    <Content Include="Views\Occassions\Edit.cshtml" />
+    <Content Include="Views\Occassions\Index.cshtml" />
+    <Content Include="Views\Seasons\Create.cshtml" />
+    <Content Include="Views\Seasons\Delete.cshtml" />
+    <Content Include="Views\Seasons\Details.cshtml" />
+    <Content Include="Views\Seasons\Edit.cshtml" />
+    <Content Include="Views\Seasons\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
