@@ -7,60 +7,23 @@
 <h2>Details</h2>
 
 <div>
-    <h4>Sho</h4>
+    <h4>Shoes</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Photo)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Photo)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Type)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Type)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Color)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Color)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Occassion.OccassionName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Occassion.OccassionName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Season.SeasonName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Season.SeasonName)
-        </dd>
-
-    </dl>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ShoeID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+<div class="row">
+    <div class="col-md-12">
+        <div class="thumbnail details-thumb">
+
+            <div class="caption">
+                <p><b>@Html.DisplayFor(model => model.Name)</b></p>
+                <p>@Html.DisplayNameFor(model => model.Type): @Html.DisplayFor(model => model.Type)</p>
+                <p>@Html.DisplayNameFor(model => model.Color): @Html.DisplayFor(model => model.Color)</p>
+                <img class="details-photo" src="@Html.DisplayFor(model => model.Photo)" />
+                <p>
+                    @Html.ActionLink("Edit", "Edit", new { id = Model.ShoeID }) |
+                    @Html.ActionLink("Back to List", "Index")
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

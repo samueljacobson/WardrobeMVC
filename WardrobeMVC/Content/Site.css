@@ -48,3 +48,9 @@ div.jumbotron {
     color:white;
     text-shadow:2px 2px 4px black;
 }
+
+/*Details styling*/
+div.details-thumb {
+    text-align:center;
+    border:solid black 2px;
+}
