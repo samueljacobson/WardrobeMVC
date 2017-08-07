@@ -54,3 +54,6 @@ div.details-thumb {
     text-align:center;
     border:solid black 2px;
 }
+img.details-photo {
+    max-width:1000px;
+}
